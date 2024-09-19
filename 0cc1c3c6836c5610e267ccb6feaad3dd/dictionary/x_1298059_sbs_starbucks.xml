@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="89cb715a83e89610e267ccb6feaad36a" extends="task" label="Starbucks" max_length="40" name="x_1298059_sbs_starbucks" type="collection">
+        <element attributes="encode_utf8=false" default="javascript:gs.getUserID();" dynamic_default_value="90d1921e5f510100a9ad2572f2b477fe" label="Order for" max_length="32" name="order_for" reference="sys_user" reference_qual="roles=x_1298059_sbs.starbucks_user^EQ" reference_qual_condition="roles=x_1298059_sbs.starbucks_user^EQ" type="reference" use_dynamic_default="true"/>
+    </element>
+</database>
