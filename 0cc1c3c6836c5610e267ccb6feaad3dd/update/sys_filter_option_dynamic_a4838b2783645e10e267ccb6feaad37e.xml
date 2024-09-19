@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_filter_option_dynamic">
+    <sys_filter_option_dynamic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <available_for_default>false</available_for_default>
+        <available_for_filter>false</available_for_filter>
+        <available_for_ref_qual>false</available_for_ref_qual>
+        <field_type/>
+        <label>My Groups</label>
+        <order>300</order>
+        <roles/>
+        <script> gs.getUser().getMyGroups();</script>
+        <script_reference_id/>
+        <script_reference_table/>
+        <sys_class_name>sys_filter_option_dynamic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-16 08:25:05</sys_created_on>
+        <sys_id>a4838b2783645e10e267ccb6feaad37e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>My Groups</sys_name>
+        <sys_package display_value="Starbucks Management" source="x_1298059_sbs">0cc1c3c6836c5610e267ccb6feaad3dd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks Management">0cc1c3c6836c5610e267ccb6feaad3dd</sys_scope>
+        <sys_update_name>sys_filter_option_dynamic_a4838b2783645e10e267ccb6feaad37e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-16 08:29:03</sys_updated_on>
+        <table>x_1298059_sbs_starbucks</table>
+        <table_containing_filter/>
+    </sys_filter_option_dynamic>
+</record_update>
